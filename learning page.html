@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics Of CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body{
+        display: flex;
+        background-image: url(https://img.freepik.com/free-photo/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.jpg)
+    }    
+   .left{
+       height: 800px;
+       width: 300px;
+       border: 2px solid black;
+       border-radius: 15px;
+       background-color: aquamarine;
+       margin: 20px 20px;
+       background-color: transparent;
+       color: white;
+       background-color: rgba(8, 19, 15, 0.364);
+       font-size: 30px;
+       padding: 30px;
+       overflow: scroll;
+       scrollbar-width: none;
+
+
+}   
+.left h1, .right h1{
+    font-size: 50px;
+}
+.left li{
+    margin: 15px;
+}
+
+.right{
+    height: 800px;
+    color: white;
+       width: 1500px;
+       border: 2px solid black;
+       border-radius: 15px;
+       background-color: rgba(8, 19, 15, 0.322);
+     margin: 20px 20px;
+     font-size: 30px;
+     padding: 30px;
+     /* background-color: transparent; */
+     scrollbar-width: none;
+     overflow: scroll;
+     
+
+    
+}
+ul{
+    list-style: none;
+}
+
+
+    </style>    
+</head>
+<body>
+    <div class="navbar"></div>
+    <div class="left">
+        <h1>python Basics</h1>
+        <ul>
+            <li>CSS Introduction</li>
+        
+            <li>CSS Syntax</li>
+          
+            <li>CSS selectors</li>
+            <li>CSS Color</li>
+            <li>CSS Backgound</li>
+            <li>CSS Comment</li>
+            <li>CSS Borders</li>
+            <li>CSS Margins</li>
+            <li>CSS Table</li>
+            <li>CSS Box Model</li>
+            <li>CSS Icons</li>
+            <li>CSS Height and Width</li>
+            <li>CSS Animation</li>
+            <li>CSS Transition</li>
+            <li>CSS Grid layout</li>
+            <li>CSS flexbox</li>
+            <li>CSS Lists</li>
+           
+            
+        </ul>
+
+    </div>
+    <div class="right"><h1>CSS (Basics started)...</h1>
+        <h3>CSS Home</h3>
+        <p>CSS stands for Cascading Style Sheets. It is a stylesheet language used to style and enhance website presentation.
+
+            CSS is one of the main three components of a webpage along with HTML and JavaScript.
+            HTML adds Structure to a web page.
+            JavaScript adds logic to it and CSS makes it visually appealing or stylish. It controls the layout of a web page i.e. 
+            how HTML elements will be displayed on a webpage.
+            CSS was released (in 1996), 3 years after HTML (in 1993). The main idea behind its use is,
+             it allows the separation of content (HTML) from presentation (CSS).
+             This makes websites easier to maintain and more flexible..</p>
+        <h3>CSS Syntax</h3>
+        <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML. 
+            Understanding CSS syntax is fundamental for creating visually appealing and well-structured web pages.
+
+            Basic CSS Syntax
+            CSS is written as rulesets. A ruleset consists of a selector and a declaration block. Here’s the basic structure</p>
+
+        <h3>CSS selectors</h3>
+        <p>CSS selectors are used to target HTML elements on your pages, allowing you to apply styles based on their ID, 
+            class, type attributes, and more. There are mainly 5 types of selectors.
+
+            Basic CSS Selectors: These are used to target elements by tag, .class, or #id for fundamental styling needs.
+            Combinators: Ideal for styling elements based on their DOM relationships (e.g., parent-child or sibling relationships).
+            Group Selectors: Use to apply the same styles to multiple, unrelated elements simultaneously.
+            Attribute Selectors: Perfect for styling elements based on specific attributes or values, 
+            such as form inputs or links with certain prefixes or states.
+            Pseudo-Classes: Best for styling elements dynamically or interactively,
+             like :hover for user interaction or :nth-child() for structural styling.</p>
+        
+        <h3>CSS Color</h3>
+        <p>CSS colors are used to set the color of different parts of a webpage, like text, background, and borders. 
+            This helps make the page look more attractive and easier to read. You can define colors using names, hex codes, RGB values, and more.</p>  
+        <p>Use Cases of CSS Colors with Code Examples
+            CSS colors play a vital role in the design and functionality of a webpage.
+             Below are common use cases of CSS colors along with simple code examples:</p> 
+
+
+        <h3>CSS Backgound</h3>
+        <p>The CSS background is the area behind an element’s content, which can be a color, image, or both. 
+            The background property lets you control these aspects, including color, image, position, and repetition.</p> 
+
+        <h3>CSS Comment</h3>
+        <p>CSS comments are used to add notes or explanations to your code, helping you and others understand it better. They start with 
+            /* and end with */ and can be used for both single-line and multi-line comments.
+
+            Note: Comments are ignored by browsers, so they won’t affect how your webpage looks or works.</p> 
+            <p>Comments can be added anywhere in the code, and they can span across multiple lines. 
+                It’s a good practice to add comments to clarify complex parts of your code for future reference or collaboration.
+
+                Older methods like <!– –> for hiding CSS in older browsers are outdated and not recommended.
+                 Comments are simply ignored by the browser, so they don’t affect the output in any way.</p>
+
+        <h3>CSS Borders</h3>
+        <p>Borders in CSS are used to create a visible outline around an element. They can be customized in terms of
+
+            Width: The thickness of the border.
+            Style: The appearance of the border (solid, dashed, dotted, etc.).
+            Color: The color of the border.</p> 
+
+        <h3>CSS Margins</h3>
+        <p>CSS margins are used to create space around an element, separating it from neighboring elements and the edges of the webpage. 
+            They control the layout by adjusting the distance between elements, providing better organization and readability.</p> 
+        
+        <h3>CSS Table</h3>
+        <p>CSS tables are used to style HTML tables, making them look neat and organized for clear data presentation.
+
+            Add borders, spacing, and colors to enhance table design.
+            Create responsive tables that adjust for all screen sizes.</p>
+
+        <h3>CSS Box Model</h3>
+        <pre>The CSS Box Model defines how elements are sized, positioned, and rendered on a webpage. When a browser loads an HTML document, 
+            it creates a DOM tree and assigns a box to each element. This box calculates the element’s 
+            dimensions and position relative to its parent or the root <html> element, ensuring accurate layout and spacing.
+
+            Box Model Component Layout
+            Content: The area where text or other content is displayed.
+            Padding: Space between the content and the element’s border.
+            Border: A frame that wraps around the padding and content.
+            Margin: Space between the element’s border and neighbouring elements.</pre> 
+
+        <h3>CSS Icons</h3>
+        <p>CSS Icons are an essential part of modern web design, offering a visual representation of actions, 
+            ideas, and objects. CSS icons offer a compelling way to achieve this by seamlessly integrating 
+            scalable and customizable icons into your web design. CSS Icons from various libraries can be effortlessly 
+            styled and customized with CSS, allowing for alterations in size, color, shadow, and more. These icons serve as 
+            intuitive graphical elements, enhancing navigation and conveying specific meanings.</p>
+        
+        <h3>CSS Height and Width</h3>
+       <pre>Height and Width in CSS are used to set the height and width of boxes. Their values can be set using length, percentage, or auto.
+
+        Width and height
+        
+        Width and Height
+        The width and height properties in CSS are used to define the dimensions of an element. 
+        The values can be set in various units, such as pixels (px), centimeters (cm), percentages (%), etc.</pre>
+
+        <h3>CSS Animation</h3>
+        <p>CSS animations control the movement and appearance of elements on web pages. We can animate HTML elements without using JavaScript.
+
+            Use @keyframes to define the animation steps.
+            Apply animations with properties like animation-name and animation-duration.
+            Control the animation flow using animation-timing-function and animation-delay.</p>
+
+        <h3>CSS Transition</h3>
+        <pre>CSS transitions are used to create smooth animations between two states of an element, enhancing interactivity and user experience.
+
+            Transitions can animate properties like color, size, and position.
+            Use selectors and pseudo-classes (e.g., :hover) to trigger transitions.
+            Key transition properties include transition-property, transition-duration, transition-timing-function, and transition-delay.</pre>
+
+        <h3>CSS Grid layout</h3>
+        <p>CSS Grid Layout is used to design responsive web layouts with rows and columns. It allows you to place items exactly where you want, making it easier to create flexible and modern web pages.
+
+            Unlike older methods like floats, CSS Grid gives more control over alignment and adapts well to different screen sizes.</p>
+            <pre>In this example:
+
+                The .grid-container is set to display as a grid with three equal-width columns (1fr each) and a 10px gap between them.
+                Each .grid-item represents a column with basic styling for clarity.</pre>
+
+        <h3>CSS flexbox</h3>
+        <pre>CSS Flexbox, short for the Flexible Box Layout module, is a powerful layout tool designed to simplify web page layouts by arranging items in rows or columns with ease.
+
+            Flexbox eliminates the need for floats or complex positioning, enabling responsive and dynamic layouts.
+            It aligns items efficiently, distributing space within a container, even when their sizes are dynamic or unknown.
+            Flexbox is supported in all modern browsers, making it a reliable choice for creating flexible designs.
+            What is CSS Flexbox?
+            The Flexible Box Layout module introduces a one-dimensional layout system that handles space distribution and item alignment effectively. It works seamlessly for horizontal (row) or vertical (column) arrangements, making it a go-to solution for responsive designs.</pre>
+
+        <h3>CSS Lists</h3>
+        <p>CSS Lists are used to display items in a clear and organized manner, either with bullets (unordered) or numbers (ordered). They help keep content neat and structured on a webpage.
+
+            With CSS, you can customize the look of lists to improve the design and layout of your content.</p>
+</div>
+</body>
+
+</html> 
